@@ -1,10 +1,6 @@
-import './App.css';
-import ItemListContainer from './components/itemListContainer/itemListContainer';
+import React from 'react'
 
-
-
-function App() {
- 
+export const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg bg-light">
     <div className="container-fluid">
@@ -44,6 +40,3 @@ function App() {
   </nav>
   )
 }
-
-export default App;
-
