@@ -1,5 +1,6 @@
 import React from "react"
 import Count from "../Count"
+import CountCustomHook from "../CountCustomHook"
 
 
 const ItemListContainer = () => {
@@ -9,6 +10,7 @@ const ItemListContainer = () => {
     return(
         <>
         <Count stock={8} onAdd={onAdd} />
+        <CountCustomHook stock={8} onAdd={onAdd}/>
         </>
     )
 }
