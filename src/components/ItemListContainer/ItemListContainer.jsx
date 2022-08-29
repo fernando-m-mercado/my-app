@@ -1,9 +1,14 @@
-export const ItemListContainer = ({title, subtitle}) => {
-   
+import React from "react"
+import Count from "../Count"
+
+
+const ItemListContainer = () => {
+   function onAdd(count){
+        console.log(`Se han seleccionado ${count} productos`)
+   }
     return(
         <>
-        <h1>{title} </h1>
-        <h5>{subtitle}</h5>
+        <Count stock={8} onAdd={onAdd} />
         </>
     )
 }

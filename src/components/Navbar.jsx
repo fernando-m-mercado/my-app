@@ -22,7 +22,7 @@ function Navbar({nombre}) {
             </ul>
             <BsCartPlus className='icon'/>
             <Form user={user} />
-          </div>
+          </div> 
         </div>
       </nav>
     </>
@@ -31,7 +31,3 @@ function Navbar({nombre}) {
 
 export default Navbar;
 
-/*
-
-
-            */
