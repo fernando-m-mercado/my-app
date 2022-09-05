@@ -1,8 +1,8 @@
 import './App.css';
 import {React, useState} from 'react';
 import Navbar from './Navbar';
-import ItemListContainer from './ItemListContainer/ItemListContainer';
 
+import Dolar from './Dolar';
 
 
 const App = () => {
@@ -14,9 +14,9 @@ const App = () => {
             <Navbar />
 
             
+            <Dolar/>
             
             
-            <ItemListContainer />
             <></>
         </>
 
