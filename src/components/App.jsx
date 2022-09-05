@@ -1,23 +1,24 @@
 import './App.css';
-import {React, useState} from 'react';
+import {React} from 'react';
 import Navbar from './Navbar';
+import Productos from './Productos';
 
-import Dolar from './Dolar';
+
 
 
 const App = () => {
 
-    
+  
 
     return (
         <>
             <Navbar />
-
-            
-            <Dolar/>
             
             
-            <></>
+            <Productos />
+            
+            
+            
         </>
 
 
