@@ -5,8 +5,10 @@ import Poke from "../Poke/item";
 const PokeList = ({list}) => {
     return <ul>
         {list.map((pokemon) => (
-        <Poke pokemon={pokemon} keys={pokemon.id} />
+         <>
+        <Poke pokemon={pokemon} keys={pokemon.id}/>
         
+        </>
         ) )}
     </ul>
 };
